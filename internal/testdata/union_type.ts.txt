@@ -1,0 +1,7 @@
+/**
+ * The LSP any type
+ *
+ * @since 3.17.0
+ */
+export type LSPAny = LSPObject | LSPArray | string | integer | uinteger |
+	decimal | boolean | null;

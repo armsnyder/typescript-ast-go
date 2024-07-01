@@ -1,0 +1,8 @@
+export interface SemanticTokensDelta {
+  readonly resultId?: string;
+  /**
+   * The semantic token edits to transform a previous result into a new
+   * result.
+   */
+  edits: SemanticTokensEdit[];
+}

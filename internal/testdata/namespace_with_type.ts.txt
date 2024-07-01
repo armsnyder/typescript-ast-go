@@ -1,0 +1,12 @@
+export namespace DiagnosticSeverity {
+	/**
+	 * Reports an error.
+	 */
+	export const Error: 1 = 1;
+	/**
+	 * Reports a warning.
+	 */
+	export const Warning: 2 = 2;
+}
+
+export type DiagnosticSeverity = 1 | 2;

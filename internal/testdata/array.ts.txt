@@ -1,0 +1,6 @@
+/**
+ * LSP arrays.
+ *
+ * @since 3.17.0
+ */
+export type LSPArray = LSPAny[];

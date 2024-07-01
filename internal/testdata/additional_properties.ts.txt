@@ -1,0 +1,11 @@
+interface FormattingOptions {
+	/**
+	 * Size of a tab in spaces.
+	 */
+	tabSize: uinteger;
+
+	/**
+	 * Signature for further properties.
+	 */
+	[key: string]: boolean | integer | string;
+}

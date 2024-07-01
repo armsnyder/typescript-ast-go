@@ -1,0 +1,8 @@
+/**
+ * Registration options specific to a notebook.
+ *
+ * @since 3.17.0
+ */
+export interface NotebookDocumentSyncRegistrationOptions
+  extends NotebookDocumentSyncOptions,
+    StaticRegistrationOptions {}

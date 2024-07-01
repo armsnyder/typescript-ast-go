@@ -1,0 +1,34 @@
+/**
+ * A notebook document filter denotes a notebook document by
+ * different properties.
+ *
+ * @since 3.17.0
+ */
+export type NotebookDocumentFilter = {
+	/** The type of the enclosing notebook. */
+	notebookType: string;
+
+	/** A Uri [scheme](#Uri.scheme), like `file` or `untitled`. */
+	scheme?: string;
+
+	/** A glob pattern. */
+	pattern?: string;
+} | {
+	/** The type of the enclosing notebook. */
+	notebookType?: string;
+
+	/** A Uri [scheme](#Uri.scheme), like `file` or `untitled`.*/
+	scheme: string;
+
+	/** A glob pattern. */
+	pattern?: string;
+} | {
+	/** The type of the enclosing notebook. */
+	notebookType?: string;
+
+	/** A Uri [scheme](#Uri.scheme), like `file` or `untitled`. */
+	scheme?: string;
+
+	/** A glob pattern. */
+	pattern: string;
+};

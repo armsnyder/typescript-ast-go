@@ -1,0 +1,18 @@
+export namespace ErrorCodes {
+  // Defined by JSON-RPC
+  export const ParseError: integer = -32700;
+  export const InvalidRequest: integer = -32600;
+
+  /**
+   * This is the start range of JSON-RPC reserved error codes.
+   * It doesn't denote a real error code. No LSP error codes should
+   * be defined between the start and end range. For backwards
+   * compatibility the `ServerNotInitialized` and the `UnknownErrorCode`
+   * are left in the range.
+   *
+   * @since 3.16.0
+   */
+  export const jsonrpcReservedErrorRangeStart: integer = -32099;
+  /** @deprecated use jsonrpcReservedErrorRangeStart */
+  export const serverErrorStart: integer = jsonrpcReservedErrorRangeStart;
+}

@@ -1,0 +1,4 @@
+interface HoverParams {
+	textDocument: string; /** The text document's URI in string form */
+	position: { line: uinteger; character: uinteger; };
+}

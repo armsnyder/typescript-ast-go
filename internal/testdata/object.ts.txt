@@ -1,0 +1,6 @@
+/**
+ * LSP object definition.
+ *
+ * @since 3.17.0
+ */
+export type LSPObject = { [key: string]: LSPAny };
